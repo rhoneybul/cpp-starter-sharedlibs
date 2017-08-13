@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/roberttimothyhoneybul/cplusplus/load-shared-library/src/hello.cpp
+iostream
+-
+
+/Users/roberttimothyhoneybul/cplusplus/load-shared-library/src/main.cpp
+iostream
+-
+utils.h
+/Users/roberttimothyhoneybul/cplusplus/load-shared-library/src/utils.h
+
+/Users/roberttimothyhoneybul/cplusplus/rthutils/include/utils.h
+
